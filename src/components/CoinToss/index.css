@@ -1,0 +1,49 @@
+/* Write your CSS here */
+* {
+  font-family: roboto;
+}
+.home {
+  height: 100vh;
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-box {
+  background-color: white;
+  height: 450px;
+  width: 300px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-style {
+  height: 200px;
+}
+.head {
+  color: #a35200;
+}
+.para {
+  color: #334155;
+}
+.sub-box {
+  margin-top: 20px;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+}
+.sub-para {
+  color: #475569;
+}
+.btn {
+  background-color: #e2a139;
+  color: #a35200;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
